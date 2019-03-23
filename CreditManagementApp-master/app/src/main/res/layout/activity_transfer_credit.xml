@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.Toolbar
+        app:title="Transfer Credit"
+        app:titleTextColor="#fff"
+        android:background="@color/colorPrimary"
+        app:titleMarginStart="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+
+    <TextView
+        android:textAlignment="center"
+        android:fontFamily="@font/volkron"
+        android:textSize="20sp"
+        android:text="Select User To Transfer Credit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="15sp"
+        android:id="@+id/myRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

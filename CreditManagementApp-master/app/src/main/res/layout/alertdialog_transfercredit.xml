@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:paddingRight="10sp"
+    android:paddingLeft="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="500sp">
+
+
+    <TextView
+        android:text="@string/transferring_to"
+        android:id="@+id/transfertoUser"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/volkron"
+        android:layout_marginStart="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp" />
+
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="50sp"
+        android:fontFamily="@font/volkron"
+        android:text="@string/enter_credit_amount"
+        android:textSize="24sp" />
+
+    <EditText
+        android:inputType="phone"
+        android:fontFamily="@font/volkron"
+        android:id="@+id/enterCreditAmount"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginStart="130sp"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/button_style2"
+        android:id="@+id/trasnferToUser"
+        android:text="@string/transfer"
+        android:textSize="20sp"
+        android:fontFamily="@font/volkron"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+</LinearLayout>

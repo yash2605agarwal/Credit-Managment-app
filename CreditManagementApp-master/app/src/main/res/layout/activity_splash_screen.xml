@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_marginStart="150sp"
+        android:src="@drawable/points_icon"
+        android:layout_marginTop="200sp"
+        android:layout_width="100sp"
+        android:layout_height="100sp" />
+
+    <TextView
+        android:text="Credit Management App"
+        android:fontFamily="@font/volkron"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
+    <TextView
+        android:text="Transfer Your Credit Points"
+        android:textColor="#fff"
+        android:fontFamily="@font/volkron"
+        android:textSize="20sp"
+        android:layout_marginStart="100sp"
+        android:layout_width="350sp"
+        android:layout_height="56dp" />
+
+</LinearLayout>

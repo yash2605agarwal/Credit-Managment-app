@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Credit Management App</string>
+    <string name="transfer_credit">Transferring Credit to\t:</string>
+    <string name="view_all_users">View All Users</string>
+    <string name="test0">Test</string>
+    <string name="transfer_credit_account">Transfer Credit</string>
+    <string name="back">Back</string>
+    <string name="transferring_to">Transferring to</string>
+    <string name="enter_credit_amount">Enter Credit Amount</string>
+    <string name="transfer">Transfer</string>
+</resources>

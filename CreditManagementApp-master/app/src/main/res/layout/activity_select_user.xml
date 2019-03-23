@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingRight="10sp"
+    android:paddingLeft="10sp"
+    android:paddingTop="10sp"
+    android:layout_marginTop="30sp"
+    android:layout_height="500sp">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="10sp"
+        app:cardCornerRadius="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/retriveName"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/volkron"
+            android:textSize="24sp"
+            android:layout_height="56dp" />
+        <TextView
+            android:id="@+id/retriveEmail"
+            android:layout_marginTop="80sp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/volkron"
+            android:textSize="24sp"
+            android:layout_height="56dp" />
+
+        <TextView
+            android:id="@+id/retriveNumber"
+            android:layout_marginTop="150sp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/volkron"
+            android:textSize="24sp"
+            android:layout_height="56dp" />
+
+
+        <TextView
+            android:id="@+id/retriveCredit"
+            android:layout_marginTop="220sp"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/volkron"
+            android:textSize="24sp"
+            android:layout_height="56dp" />
+
+
+        <Button
+            android:textColor="#fff"
+            android:background="@drawable/button_style2"
+            android:id="@+id/transferCredit"
+            android:text="@string/transfer_credit_account"
+            android:fontFamily="@font/volkron"
+            android:textSize="18sp"
+            android:layout_marginTop="280sp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+        <Button
+            android:textColor="#fff"
+            android:background="@drawable/button_style2"
+            android:onClick="OnClick"
+            android:id="@+id/backButton"
+            android:text="@string/back"
+            android:textAlignment="center"
+            android:fontFamily="@font/volkron"
+            android:textSize="18sp"
+            android:layout_marginTop="360sp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
